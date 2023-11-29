@@ -43,7 +43,7 @@ void SBD10::continuousPulse(uint16_t pulse_us){
   	
 }
 
-void SBD10::burstPulse(uint16_t pulse_us, uint32_t cnt = 0){
+void SBD10::pulseControl(uint16_t pulse_us, uint32_t cnt = 0){
 	ICR1 = 0xFFFF;
 	OCR1A = 0;
 	if(pulse_us == 0) return;
