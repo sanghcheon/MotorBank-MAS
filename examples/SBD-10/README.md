@@ -1,6 +1,6 @@
 
 # API Document
-# update: 23.11.29
+updated on 23.11.29
 
 ```c
 void init();
