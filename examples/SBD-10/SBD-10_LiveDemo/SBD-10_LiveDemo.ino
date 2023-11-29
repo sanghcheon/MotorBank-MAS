@@ -16,8 +16,8 @@ void setup() {
 
 void loop() {
   
-  (mas001.button1Clicked()) ? ena = 0 : ena = 1;
-  (mas001.button2Clicked()) ? dir = 0 : dir = 1;
+  (mas001.button1Clicked()) ? ena = 1 : ena = 0;
+  (mas001.button2Clicked()) ? dir = 1 : dir = 0;
   pulse = mas001.getPot();
   (pulse < 16) ? pulse = 16: pulse;
   Serial.println(pulse);
