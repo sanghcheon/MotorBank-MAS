@@ -29,7 +29,7 @@ void continuousPulse(uint16_t pulse_us);
 <img src="assets/pulse1.png" height="200px">
 
 ```c
-void burstPulse(uint16_t pulse_us, uint32_t cnt = 0);
+void pulseControl(uint16_t pulse_us, uint32_t cnt = 0);
 ```
 * **description** : STP 핀으로 특정 폭의 펄스를 특정 값 만큼 발생시킵니다.
 * **arguments** :
