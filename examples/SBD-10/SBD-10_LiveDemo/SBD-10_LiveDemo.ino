@@ -1,34 +1,30 @@
 #include "mas001.h"
 #include "sbd10.h"
 
-MAS001 myShield;
-SBD10 myDevice;
+MAS001 mas001;
+SBD10 sbd10;
+
+
+bool ena = 0;
+bool dir = 0;
+uint16_t pulse = 1000;
+
 void setup() {
-  myDevice.init();
+  sbd10.init();
   Serial.begin(115200);
 }
 
-uint8_t dir;
-uint8_t loopCnt;
 void loop() {
-
-  if(myShield.button1Clicked()){
-    myDevice.enable(LOW);
-    myDevice.direction(dir);
-    myDevice.continuousPulse(1000);
-  }else{
-    myDevice.enable(HIGH);
-    myDevice.continuousPulse(0);
-    loopCnt = 0;
-    dir = LOW;
-  }
-
-  loopCnt ++;
-  if(loopCnt >= 80){
-    loopCnt = 0;
-    dir = (dir == HIGH) ? LOW : HIGH;
-    Serial.println(dir);
-  }
   
-  delay(50);
+  (mas001.button1Clicked()) ? ena = 0 : ena = 1;
+  (mas001.button2Clicked()) ? dir = 0 : dir = 1;
+  pulse = mas001.getPot();
+  (pulse < 16) ? pulse = 16: pulse;
+  Serial.println(pulse);
+
+  sbd10.enable(ena);
+  sbd10.direction(dir);
+  sbd10.continuousPulse(pulse);
+
+  delay(10);
 }

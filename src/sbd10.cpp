@@ -4,7 +4,7 @@
 #define DIR_PIN	6
 #define STP_PIN	9
 
-volatile static uint32_t pulse_cnt = 0;
+volatile uint32_t pulse_cnt = 0;
 
 void SBD10::init(){
 	pinMode(EN_PIN, OUTPUT);
