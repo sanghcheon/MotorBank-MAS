@@ -23,7 +23,7 @@ Fixing Done
 | [**BLC-150**](./examples/BLC-150)   | [BLC-150][4], [BLB-160][8] |
 | [**BLC-200**](./examples/BLC-200)   | [BLC-200][5], [BLC-400R4E][6], [DMC-200][9] |
 | [**DMD-150**](./examples/DMD-150) | [DMD-150][7] |
-| [**SBD-14**](./examples/SBD-14) | [SBD-14][10] |
+| [**SBD-14U**](./examples/SBD-14) | [SBD-14U][10] |
 | [**BDD-240**](./examples/BDD-240) | [BDD-240][11], [BDD-480][12] |
 
 [1]:https://www.motorbank.kr/goods/goods_view.php?goodsNo=1000007838
@@ -35,7 +35,7 @@ Fixing Done
 [7]:https://www.motorbank.kr/goods/goods_view.php?goodsNo=1000009128
 [8]:https://www.motorbank.kr/goods/goods_view.php?goodsNo=1000009614
 [9]:https://www.motorbank.kr/goods/goods_view.php?goodsNo=1000008040
-[10]:https://www.motorbank.kr/goods/goods_view.php?goodsNo=1000010044
+[10]:https://www.motorbank.kr/goods/goods_view.php?goodsNo=1000025445
 [11]:https://www.motorbank.kr/goods/goods_view.php?goodsNo=1000011688
 [12]:https://www.motorbank.kr/goods/goods_view.php?goodsNo=1000011806
 
