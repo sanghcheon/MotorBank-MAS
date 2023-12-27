@@ -41,4 +41,4 @@ Fixing Done
 
 ### Block Diagram
 
-<img src="assets/block_diagram.jpg" height="500px">
+<img src="assets/block_diagram.png" height="500px">
