@@ -14,16 +14,11 @@ MAS-001은 다양한 모터 드라이버를 손쉽게 아두이노로 제어할 
 ### Support Drivers
 MAS-001을 통해 제어할 수 있는 드라이버는 다음과 같습니다. 각 드라이버에 대한 아두이노 쉴드 사용 방법은 **examples 폴더의 해당 예제 파일** 을 참고하시기 바랍니다.
 
-Fixing Done
-: SBD-10, DMD-150, BLC-150
-
 | 예제파일 |  지원 드라이버 |
 |-----------|:----------------------:|
 | [**SBD-10**](./examples/SBD-10)    | [SBD-10][1], [SBD-11][2], [MSD-221][3] |
-| [**BLC-150**](./examples/BLC-150)   | [BLC-150][4], [BLB-160][8] |
-| [**BLC-200**](./examples/BLC-200)   | [BLC-200][5], [BLC-400R4E][6], [DMC-200][9] |
 | [**DMD-150**](./examples/DMD-150) | [DMD-150][7] |
-| [**SBD-14U**](./examples/SBD-14) | [SBD-14U][10] |
+| [**BLC-150**](./examples/BLC-150)   | [BLC-150][4], [BLB-160][8] |
 | [**BDD-240**](./examples/BDD-240) | [BDD-240][11], [BDD-480][12] |
 
 [1]:https://www.motorbank.kr/goods/goods_view.php?goodsNo=1000007838
